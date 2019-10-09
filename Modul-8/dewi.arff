@@ -1,0 +1,11 @@
+@relation tugas
+
+@attribute Jurusan_SMA {IPS, IPA, LAIN}
+@attribute Gender {WANITA, PRIA}
+@attribute Asal_Sekolah {SURAKARTA, LUAR}
+@attribute Rerata_SKS real
+@attribute Asisten {YA, TIDAK}
+@attribute Lama_Studi {TERLAMBAT, TEPAT}
+
+@data
+IPA, WANITA, LUAR, 18, TIDAK, ?

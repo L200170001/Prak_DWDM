@@ -1,0 +1,13 @@
+@relation tugas_predicted
+
+@attribute Jurusan_SMA {IPS,IPA,LAIN}
+@attribute Gender {WANITA,PRIA}
+@attribute Asal_Sekolah {SURAKARTA,LUAR}
+@attribute Rerata_SKS numeric
+@attribute Asisten {YA,TIDAK}
+@attribute 'prediction margin' numeric
+@attribute 'predicted Lama_Studi' {TERLAMBAT,TEPAT}
+@attribute Lama_Studi {TERLAMBAT,TEPAT}
+
+@data
+LAIN,PRIA,SURAKARTA,17,YA,0.05663,TERLAMBAT,?
